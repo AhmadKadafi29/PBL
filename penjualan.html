@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tabel.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <title>Obat</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <ul>
+        <li>
+          <h4>
+            <div class="brand">Apotek</div>
+          </h4>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="fas fa-home"></i>
+            <div class="title">Dashboard</div>
+          </a>
+        </li>
+        <li>
+          <a href="obat.html">
+            <i class="fas fa-pills "></i>
+            <div class="title">Obat</div>
+          </a>
+        </li>
+        <li>
+          <a href="suppliers.html">
+            <i class="fas fa-person-carry"></i>
+            <div class="title">Suppliers</div>
+          </a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a class="active" class="dropdown-btn">
+              <i class="fas fa-clipboard-list-check"></i>
+              <div class="title">Laporan Penjualan</div>
+            </a>
+            <div class="dropdown-content">
+              <a style="color: black;" href="#">Penjualan</a>
+              <a href="detailpenjualan.html" style="color: black;" href="#">Detail Penjualan</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="" class="dropdown-btn">
+              <i class="fas fa-clipboard-list"></i>
+              <div class="title">Laporan Pembelian</div>
+            </a>
+            <div class="dropdown-content">
+              <a href="pembelian.html" style="color: black;" href="#">Pembelian</a>
+              <a href="detailpembelian.html" style="color: black;" href="#">Detail Pembelian</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="top-bar">
+        <div class="search">
+          <input type="text" name="search" placeholder="search here">
+          <label for="search"><i class="fas fa-search"></i></label>
+        </div>
+        <i class="fa fa-user-circle" aria-hidden="true"></i>
+      </div>
+      <h2 style="margin-top: 90px; margin-left: 20px;"> Halaman Laporan Penjualan</h2>
+      <a href="#" class="button" type="button">+ Tambah Data</a>
+      <div class="tables">
+        <div class="data-obat">
+          <div class="heading">
+            <h4 style="margin-top: 20px;">Tabel Laporan Penjualan</h4>
+          </div>
+          <table class="tabel">
+            <th>No</th>
+            <th>Tanggal Penjualan</th>
+            <th>Aksi</th>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>05-06-2025</td>
+                <td>
+                  <i style="color: blue;" class="far fa-edit"></i>
+                  <i style="color: red;" class="far fa-trash-alt"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
